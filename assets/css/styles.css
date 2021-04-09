@@ -330,3 +330,13 @@ img {
     opacity: 1;
   }
 }
+
+
+.products-list .product-item{
+
+	transition: all .4s;
+}
+
+.bordeFiltro{
+  border: red 1px solid;
+}
