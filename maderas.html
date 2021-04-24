@@ -22,6 +22,21 @@
         <title>Siempre Al Top</title>
 
         <style>
+            #tarjeta{
+                width:95%;
+            }
+            .titleCard{
+                font-size: 12px;
+            }
+            .price{
+                font-size: 20px;
+            }
+            .card{
+                margin-bottom: 1.5vh;
+                width: 100%;
+                margin: auto;
+                margin-bottom: 3vh;
+            }
             .footer{
               padding: 20px 100px;
               display: flex;
@@ -583,27 +598,30 @@
         <main>
 
             <section>
-                <section class="products-list">
 
-                    <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
-                        <ol class="breadcrumb">
-                          <li class="breadcrumb-item">Maderas</li>
-                          <li class="breadcrumb-item product-item active" aria-current="page" category="all">Todas las marcas</li>
-                          <li class="breadcrumb-item product-item active" aria-current="page" category="Butterfly">Butterfly</li>
-                          <li class="breadcrumb-item product-item active" aria-current="page" category="Donic">Donic</li>
-                          <li class="breadcrumb-item product-item active" aria-current="page" category="Nittaku">Nittaku</li>
-                          <li class="breadcrumb-item product-item active" aria-current="page" category="Xiom">Xiom</li>
-                          <li class="breadcrumb-item product-item active" aria-current="page" category="Andro">Andro</li>
-                        </ol>
-                      </nav> 
+                <div class="container">
+                    <section class="products-list">
 
-                </section>
+                        <nav style="--bs-breadcrumb-divider: '>';" aria-label="breadcrumb">
+                            <ol class="breadcrumb">
+                            <li class="breadcrumb-item">Maderas</li>
+                            <li class="breadcrumb-item product-item active" aria-current="page" category="all">Todas las marcas</li>
+                            <li class="breadcrumb-item product-item active" aria-current="page" category="Butterfly">Butterfly</li>
+                            <li class="breadcrumb-item product-item active" aria-current="page" category="Donic">Donic</li>
+                            <li class="breadcrumb-item product-item active" aria-current="page" category="Nittaku">Nittaku</li>
+                            <li class="breadcrumb-item product-item active" aria-current="page" category="Xiom">Xiom</li>
+                            <li class="breadcrumb-item product-item active" aria-current="page" category="Andro">Andro</li>
+                            </ol>
+                        </nav> 
 
-                <h1>Maderas</h1>
-                <p style="margin-top: 2vh;">Filtrar por: </p>
+                    </section>
+
+                    <h1>Maderas</h1>
+                    <p style="margin-top: 2vh;">Filtrar por: </p>
+                </div>
 
                 <div class="container" style="margin-bottom: 3vh;">
-                        <div class="row justify-content-start text-center" >
+                        <div class="row justify-content-center text-center" >
                             
 
                             
@@ -611,7 +629,7 @@
                                     <a href="#" class="category_item" category="all" style="color:#cb4335; font-size: 1.6vh;">Todas <br> las marcas</a>
                                 </div>
                                 <div class="col-lg-1" style="width: 100px;">
-                                    <a href="#" class="category_item" category="Butterfly"><img src="assets/img/Butterfly_brand_logo.png"  style="height: 33.2px;" alt=""></a> 
+                                    <a href="#" class="category_item" category="Butterfly"><img src="assets/img/Butterfly_brand_logo.png"  style="width: 70px;height: 33.2px;" alt=""></a> 
                                 </div>
                                 <div class="col-lg-1" style="width: 100px;">
                                     <a href="#" class="category_item" category="Donic"><img src="assets/img/donic-logo.png" style="height: 41px;" alt=""></a> 
@@ -642,79 +660,802 @@
                     <div class="row">
 
                         <div class="col-xl-12">
+                            <!--========== Lista de Productos==========-->
                             <section class="products-list row" >
+
+
+                                <!--========== BUTTERFLY ==========-->
                                 <div class="product-item col-xxl-2" category="Butterfly">
-                                        <div class="card">
+                                    <a href="products/Maderas/Buttefly/mazePerformance.html" style="color:#58555E;">
+                                        <div id="tarjeta" class="card">
                                             <img src="products/photos/MaderaButterflyMazePerformance-1.jpg" class="card-img-top" alt="...">
                                             <div class="card-body">
-                                              <p class="card-text price">USD 90 <span style="font-size: 1.8vh; color:green;">10% OFF</span></p>
-                                              <p class="card-text titleCard">Goma Butterfly DIGNICS 09C</p>
+                                            <p class="card-text price">USD 91<span style="font-size: 14px; color:green;"></span></p>
+                                            <p class="card-text titleCard">Madera Butterfly Maze Performance</p>
                                             </div>
-                                          </div>
-                                </div>
-                                <div class="product-item col-xxl-2" category="Victas">
-                                    <div class="card" >
-                                        <img src="products/photos/GomaDonicVario-1.jpg" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                          <p class="card-text price">USD 90 <span style="font-size: 1.8vh; color:green;">10% OFF</span></p>
-                                          <p class="card-text titleCard">Goma VICTAS</p>
                                         </div>
-                                      </div>
+                                    </a>
                                 </div>
-                                <div class="product-item  col-xxl-2" category="Donic">
-                                    <div class="card" >
-                                        <img src="products/photos/GomaDonicAcudaBlueP2-1.jpg" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                          <p class="card-text price">USD 90 <span style="font-size: 1.8vh; color:green;">10% OFF</span></p>
-                                          <p class="card-text titleCard">Goma Donic</p>
+                                <div class="product-item col-xxl-2" category="Butterfly">
+                                    <a href="products/Maderas/Buttefly/timoBollALC.html" style="color:#58555E;">
+                                        <div id="tarjeta" class="card">
+                                            <img src="products/photos/MaderaButterflyTimoBollALC-1.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                            <p class="card-text price">USD 187<span style="font-size: 14px; color:green;"></span></p>
+                                            <p class="card-text titleCard">Madera Butterfly Timo Boll ALC</p>
+                                            </div>
                                         </div>
-                                      </div>
+                                    </a>
+                                </div>
+                                <div class="product-item col-xxl-2" category="Butterfly">
+                                    <a href="products/Maderas/Buttefly/apoloniaInneforceZLC.html" style="color:#58555E;">
+                                        <div id="tarjeta" class="card">
+                                            <img src="products/photos/MaderaButterflyApoloniaInnerforceZLC-1.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                            <p class="card-text price">USD 295<span style="font-size: 14px; color:green;"></span></p>
+                                            <p class="card-text titleCard">Madera Butterfly Apolonia Innerforce ZLC</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="product-item col-xxl-2" category="Butterfly">
+                                    <a href="products/Maderas/Buttefly/hadrawShield.html" style="color:#58555E;">
+                                        <div id="tarjeta" class="card">
+                                            <img src="products/photos/MaderaButterflyHadrawShield-1.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                            <p class="card-text price">USD 139<span style="font-size: 14px; color:green;"></span></p>
+                                            <p class="card-text titleCard">Madera Butterfly Hadraw Shield</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="product-item col-xxl-2" category="Butterfly">
+                                    <a href="products/Maderas/Buttefly/hadrawSK.html" style="color:#58555E;">
+                                        <div id="tarjeta" class="card">
+                                            <img src="products/photos/MaderaButterflyHadrawSK-1.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                            <p class="card-text price">USD 113<span style="font-size: 14px; color:green;"></span></p>
+                                            <p class="card-text titleCard">Madera Butterfly Hadraw SK</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="product-item col-xxl-2" category="Butterfly">
+                                    <a href="products/Maderas/Buttefly/hadrawSR.html" style="color:#58555E;">
+                                        <div id="tarjeta" class="card">
+                                            <img src="products/photos/MaderaButterflyHadrawSR-1.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                            <p class="card-text price">USD 134<span style="font-size: 14px; color:green;"></span></p>
+                                            <p class="card-text titleCard">Madera Butterfly hadrawSR</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!--========== 2DA LINEA==========-->
+                                <div class="product-item col-xxl-2" category="Butterfly">
+                                    <a href="products/Maderas/Buttefly/hadrawVK.html" style="color:#58555E;">
+                                        <div id="tarjeta" class="card">
+                                            <img src="products/photos/MaderaButterflyHadrawVK-1.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                            <p class="card-text price">USD 113<span style="font-size: 14px; color:green;"></span></p>
+                                            <p class="card-text titleCard">Madera Butterfly hadraw VK</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="product-item col-xxl-2" category="Butterfly">
+                                    <a href="products/Maderas/Buttefly/jooSaehyuk.html" style="color:#58555E;">
+                                        <div id="tarjeta" class="card">
+                                            <img src="products/photos/MaderaButterflyJooSaehyuk-1.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                            <p class="card-text price">USD 118<span style="font-size: 14px; color:green;"></span></p>
+                                            <p class="card-text titleCard">Madera Butterfly Joo Saehyuk</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="product-item col-xxl-2" category="Butterfly">
+                                    <a href="products/Maderas/Buttefly/mizutaniJunZLC.html" style="color:#58555E;">
+                                        <div id="tarjeta" class="card">
+                                            <img src="products/photos/MaderaButterflyMizutaniJunZLC-1.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                            <p class="card-text price">USD 289<span style="font-size: 14px; color:green;"></span></p>
+                                            <p class="card-text titleCard">Madera Butterfly Jun Mizutani ZLC</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="product-item col-xxl-2" category="Butterfly">
+                                    <a href="products/Maderas/Buttefly/sK7Classic.html" style="color:#58555E;">
+                                        <div id="tarjeta" class="card">
+                                            <img src="products/photos/MaderaButterflySK7Classic-1.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                            <p class="card-text price">USD 54<span style="font-size: 14px; color:green;"></span></p>
+                                            <p class="card-text titleCard">Madera Butterfly SK7 Classic</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="product-item col-xxl-2" category="Butterfly">
+                                    <a href="products/Maderas/Buttefly/timoBollTamca5000.html" style="color:#58555E;">
+                                        <div id="tarjeta" class="card">
+                                            <img src="products/photos/MaderaButterflyTimoBollTamca5000-1.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                            <p class="card-text price">USD 187<span style="font-size: 14px; color:green;"></span></p>
+                                            <p class="card-text titleCard">Madera Butterfly Timo Boll Tamca 5000</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="product-item col-xxl-2" category="Butterfly">
+                                    <a href="products/Maderas/Buttefly/viscaria.html" style="color:#58555E;">
+                                        <div id="tarjeta" class="card">
+                                            <img src="products/photos/MaderaButterflyViscaria-1.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                            <p class="card-text price">USD 187<span style="font-size: 14px; color:green;"></span></p>
+                                            <p class="card-text titleCard">Madera Butterfly Viscaria</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!--========== 3RA LINEA==========-->
+                                <div class="product-item col-xxl-2" category="Butterfly">
+                                    <a href="products/Maderas/Buttefly/harimotoTomokazuInneforceALC.html" style="color:#58555E;">
+                                        <div id="tarjeta" class="card">
+                                            <img src="products/photos/MaderaButterflyHarimotoTomokazuInneforceALC-1.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                            <p class="card-text price">USD 268<span style="font-size: 14px; color:green;"></span></p>
+                                            <p class="card-text titleCard">Madera Butterfly <br> Harimoto Tomokazu Innerforce ALC</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="product-item col-xxl-2" category="Butterfly">
+                                    <a href="products/Maderas/Buttefly/zhangJikeT5000.html" style="color:#58555E;">
+                                        <div id="tarjeta" class="card">
+                                            <img src="products/photos/MaderaButterflyZhangJikeT5000-1.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                            <p class="card-text price">USD 238<span style="font-size: 14px; color:green;"></span></p>
+                                            <p class="card-text titleCard">Madera Butterfly Zhang Jike T5000</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="product-item col-xxl-2" category="Butterfly">
+                                    <a href="products/Maderas/Buttefly/petrKorbel.html" style="color:#58555E;">
+                                        <div id="tarjeta" class="card">
+                                            <img src="products/photos/MaderaButterflyPetrKorbel-1.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                            <p class="card-text price">USD 86<span style="font-size: 14px; color:green;"></span></p>
+                                            <p class="card-text titleCard">Madera Butterfly Petr Korbel</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="product-item col-xxl-2" category="Butterfly" >
+                                    <a href="products/Maderas/Buttefly/primoracTamca.html" style="color:#58555E;">
+                                        <div id="tarjeta" class="card">
+                                            <div class="card-imagen">
+                                                <img src="products/photos/MaderaButterflyPrimorac(Tamca5000Carbon)-1.jpg" class="card-img-top" alt="...">
+                                            </div>
+                                            <div class="card-body">
+                                                <p class="card-text price">USD 129<span style="font-size: 14px; color:green;"></span></p>
+                                                <p class="card-text titleCard">Madera Butterfly primorac T5000 Carbon</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                
+                                <!--========== DONIC ==========-->
+
+                                
+                                <div class="product-item col-xxl-2" category="Donic">
+                                    <a href="products/Maderas/Donic/crestOFF.html" style="color:#58555E;">
+                                        <div id="tarjeta" class="card">
+                                            <img src="products/photos/MaderaDonicCrestOFF-1.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                            <p class="card-text price">USD 376<span style="font-size: 14px; color:green;"></span></p>
+                                            <p class="card-text titleCard">Madera Donic Crest OFF</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="product-item col-xxl-2" category="Donic">
+                                    <a href="products/Maderas/Donic/crestOFF.html" style="color:#58555E;">
+                                        <div id="tarjeta" class="card">
+                                            <img src="products/photos/MaderaDonicCrestOFF-1.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                            <p class="card-text price">USD 148<span style="font-size: 14px; color:green;"></span></p>
+                                            <p class="card-text titleCard">Madera Donic Crest Off</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <!--========== 4TA LINEA==========-->
+                                
+                                <div class="product-item col-xxl-2" category="Donic">
+                                    <a href="products/Maderas/Donic/ePOXOFFCO.html" style="color:#58555E;">
+                                        <div id="tarjeta" class="card">
+                                            <img src="products/photos/MaderaDonicEPOXOFFCO-1.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                            <p class="card-text price">USD 105<span style="font-size: 14px; color:green;"></span></p>
+                                            <p class="card-text titleCard">Madera Donic Epox OFF CO</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="product-item col-xxl-2" category="Donic">
+                                    <a href="products/Maderas/Donic/perssonCarbotec.html" style="color:#58555E;">
+                                        <div id="tarjeta" class="card">
+                                            <img src="products/photos/MaderaDonicPerssonCarbotec-1.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                            <p class="card-text price">USD 120<span style="font-size: 14px; color:green;"></span></p>
+                                            <p class="card-text titleCard">Madera Donic Persson Carbotec</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="product-item col-xxl-2" category="Donic">
+                                    <a href="products/Maderas/Donic/waldnerDiabloSenso.html" style="color:#58555E;">
+                                        <div id="tarjeta" class="card">
+                                            <img src="products/photos/MaderaDonicWaldnerDiabloSenso-1.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                            <p class="card-text price">USD 93<span style="font-size: 14px; color:green;"></span></p>
+                                            <p class="card-text titleCard">Madera Donic Waldner Diablo Senso</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="product-item col-xxl-2" category="Donic">
+                                    <a href="products/Maderas/Donic/perssonSeven.html" style="color:#58555E;">
+                                        <div id="tarjeta" class="card">
+                                            <img src="products/photos/MaderaDonicPerssonSeven-1.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                            <p class="card-text price">USD 74<span style="font-size: 14px; color:green;"></span></p>
+                                            <p class="card-text titleCard">Madera Donic Persson Seven</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!--========== NITTAKU ==========-->
+                                <div class="product-item col-xxl-2" category="Nittaku">
+                                    <a href="products/Maderas/Nittaku/acousticCarbon.html" style="color:#58555E;">
+                                        <div id="tarjeta" class="card">
+                                            <img src="products/photos/MaderaNittakuAcousticCarbon-1.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                            <p class="card-text price">USD 210<span style="font-size: 14px; color:green;"></span></p>
+                                            <p class="card-text titleCard">Madera Nittaku Acoustic Carbon</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="product-item col-xxl-2" category="Nittaku">
+                                    <a href="products/Maderas/Nittaku/amin.html" style="color:#58555E;">
+                                        <div id="tarjeta" class="card">
+                                            <img src="products/photos/MaderaNittakuAmin-1.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                            <p class="card-text price">USD 55<span style="font-size: 14px; color:green;"></span></p>
+                                            <p class="card-text titleCard">Madera Nittaku Amin</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <!--========== 5TA LINEA==========-->
+                                <div class="product-item col-xxl-2" category="Andro">
+                                    <a href="products/Maderas/Andro/timber7OFF-S.html" style="color:#58555E;">
+                                        <div id="tarjeta" class="card">
+                                            <img src="products/photos/MaderaAndroTimber7OFF-S-1.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                            <p class="card-text price">USD 66<span style="font-size: 14px; color:green;"></span></p>
+                                            <p class="card-text titleCard">Madera Andro Timber 7 OFF/S</p>
+                                            </div>
+                                        </div>
+                                    </a>
                                 </div>
                                 <div class="product-item col-xxl-2" category="Andro">
-                                    <div class="card" >
-                                        <img src="products/photos/GomaDonicAcudaS1Turbo-1.jpg" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                          <p class="card-text price">USD 90 <span style="font-size: 1.8vh; color:green;">10% OFF</span></p>
-                                          <p class="card-text titleCard">Goma Andro</p>
+                                    <a href="products/Maderas/Andro/tPLIGNAALL.html" style="color:#58555E;">
+                                        <div id="tarjeta" class="card">
+                                            <img src="products/photos/MaderaAndroTPLINGAALL-1.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                            <p class="card-text price">USD 117<span style="font-size: 14px; color:green;"></span></p>
+                                            <p class="card-text titleCard">Madera Andro TP Ligna ALL</p>
+                                            </div>
                                         </div>
-                                      </div>
+                                    </a>
+                                </div>
+                                <div class="product-item col-xxl-2" category="Andro">
+                                    <a href="products/Maderas/Andro/tPLIGNAOFF.html" style="color:#58555E;">
+                                        <div id="tarjeta" class="card">
+                                            <img src="products/photos/MaderaAndroTP_LINGACOOFF-1.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                            <p class="card-text price">USD 148<span style="font-size: 14px; color:green;"></span></p>
+                                            <p class="card-text titleCard">Madera Andro TP Ligna OFF</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="product-item col-xxl-2" category="Andro">
+                                    <a href="products/Maderas/Andro/timber7OFF.html" style="color:#58555E;">
+                                        <div id="tarjeta" class="card">
+                                            <img src="products/photos/MaderaAndroTimber7OFF-1.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                            <p class="card-text price">USD 66<span style="font-size: 14px; color:green;"></span></p>
+                                            <p class="card-text titleCard">Madera Andro Timber 7 OFF</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="product-item col-xxl-2" category="Andro">
+                                    <a href="products/Maderas/Andro/tPLINGACIOFF.html" style="color:#58555E;">
+                                        <div id="tarjeta" class="card">
+                                            <img src="products/photos/MaderaAndroTP_LINGACIOFF-1.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                            <p class="card-text price">USD 159<span style="font-size: 14px; color:green;"></span></p>
+                                            <p class="card-text titleCard">Madera Andro TP Ligna CI OFF</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="product-item col-xxl-2" category="Andro">
+                                    <a href="products/Maderas/Andro/tPLINGACOOFF.html" style="color:#58555E;">
+                                        <div id="tarjeta" class="card">
+                                            <img src="products/photos/MaderaAndroTP_LINGACOOFF-1.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                            <p class="card-text price">USD 159<span style="font-size: 14px; color:green;"></span></p>
+                                            <p class="card-text titleCard">Madera Andro TP Ligna CO OFF</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!--========== 6TA LINEA==========-->
+                                <div class="product-item col-xxl-2" category="Andro">
+                                    <a href="products/Maderas/Andro/treiberCIOFF.html" style="color:#58555E;">
+                                        <div id="tarjeta" class="card">
+                                            <img src="products/photos/MaderaAndroTreiberCIOFF-1.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                            <p class="card-text price">USD 111<span style="font-size: 14px; color:green;"></span></p>
+                                            <p class="card-text titleCard">Madera Andro Treiber CI OFF</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="product-item col-xxl-2" category="Andro">
+                                    <a href="products/Maderas/Andro/treiberFOOFF-S.html" style="color:#58555E;">
+                                        <div id="tarjeta" class="card">
+                                            <img src="products/photos/MaderaAndroTreiberFOOFF-S-1.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                            <p class="card-text price">USD 106<span style="font-size: 14px; color:green;"></span></p>
+                                            <p class="card-text titleCard">Madera Andro Treiber FO OFF/S</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="product-item col-xxl-2" category="Andro">
+                                    <a href="products/Maderas/Andro/wanokiwamiAOOFF.html" style="color:#58555E;">
+                                        <div id="tarjeta" class="card">
+                                            <img src="products/photos/MaderaAndroWanokiwamiAOOFF-1.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                            <p class="card-text price">USD 169<span style="font-size: 14px; color:green;"></span></p>
+                                            <p class="card-text titleCard">Madera Andro Wanokiwami AO OFF</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="product-item col-xxl-2" category="Andro">
+                                    <a href="products/Maderas/Andro/wanokiwamiMidoriDEF.html" style="color:#58555E;">
+                                        <div id="tarjeta" class="card">
+                                            <img src="products/photos/MaderaAndroWanokiwamiMidoriDEF-1.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                            <p class="card-text price">USD 169<span style="font-size: 14px; color:green;"></span></p>
+                                            <p class="card-text titleCard">Madera Andro Wanokiwami Midori DEF</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!--========== ANDRO ==========-->
+                                <div class="product-item col-xxl-2" category="Andro">
+                                    <a href="products/Maderas/Andro/GauzyBL5ALLBasicline.html" style="color:#58555E;">
+                                        <div id="tarjeta" class="card">
+                                            <img src="products/photos/MaderaAndroGauzyBL5ALLBasicline-1.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                            <p class="card-text price">USD 57<span style="font-size: 14px; color:green;"></span></p>
+                                            <p class="card-text titleCard">Madera Andro Gauzy BL5 ALL Basicline</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="product-item col-xxl-2" category="Andro">
+                                    <a href="products/Maderas/Andro/gauzyHLCOOFF.html" style="color:#58555E;">
+                                        <div id="tarjeta" class="card">
+                                            <img src="products/photos/MaderaAndroGauzyHLCOOFF-1.jgp.jfif" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                            <p class="card-text price">USD 89<span style="font-size: 14px; color:green;"></span></p>
+                                            <p class="card-text titleCard">Madera Andro Gauzy HL CO OFF</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!--========== 7TA LINEA==========-->
+
+                                <div class="product-item col-xxl-2" category="Andro">
+                                    <a href="products/Maderas/Andro/tPLIGNAOFF-S.html" style="color:#58555E;">
+                                        <div id="tarjeta" class="card">
+                                            <img src="products/photos/MaderaAndroTP_LIGNAOFF-S-1.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                            <p class="card-text price">USD 148<span style="font-size: 14px; color:green;"></span></p>
+                                            <p class="card-text titleCard">Madera Andro TP Ligna OFF/S</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="product-item col-xxl-2" category="Andro">
+                                    <a href="products/Maderas/Andro/gauzySLOFF.html" style="color:#58555E;">
+                                        <div id="tarjeta" class="card">
+                                            <img src="products/photos/MaderaAndroGauzySLOFF-1.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                            <p class="card-text price">USD 153<span style="font-size: 14px; color:green;"></span></p>
+                                            <p class="card-text titleCard">Madera Andro Gauzy SL OFF</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="product-item col-xxl-2" category="Andro">
+                                    <a href="products/Maderas/Andro/kanterCOOFF.html" style="color:#58555E;">
+                                        <div id="tarjeta" class="card">
+                                            <img src="products/photos/MaderaAndroKanterCOOFF-1.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                            <p class="card-text price">USD 100<span style="font-size: 14px; color:green;"></span></p>
+                                            <p class="card-text titleCard">Madera Andro Kanter CO OFF</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="product-item col-xxl-2" category="Andro">
+                                    <a href="products/Maderas/Andro/kanterFOOFF.html" style="color:#58555E;">
+                                        <div id="tarjeta" class="card">
+                                            <img src="products/photos/MaderaAndroKanterFOOFF-1.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                            <p class="card-text price">USD 87<span style="font-size: 14px; color:green;"></span></p>
+                                            <p class="card-text titleCard">Madera Andro Kanter FO OFF</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="product-item col-xxl-2" category="Andro">
+                                    <a href="products/Maderas/Andro/treiberCOOFF-S.html" style="color:#58555E;">
+                                        <div id="tarjeta" class="card">
+                                            <img src="products/photos/MaderaAndroTreiberCOOFF-S-1.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                            <p class="card-text price">USD 111<span style="font-size: 14px; color:green;"></span></p>
+                                            <p class="card-text titleCard">Madera Andro Treiber CO OFF/S</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="product-item col-xxl-2" category="Donic">
+                                    <a href="products/Maderas/Donic/waldnerBlackDevilCarbon.html" style="color:#58555E;">
+                                        <div id="tarjeta" class="card">
+                                            <img src="products/photos/MaderaDonicWaldnerBlackDevilCarbonBalsa-1.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                            <p class="card-text price">USD 173<span style="font-size: 14px; color:green;"></span></p>
+                                            <p class="card-text titleCard">Madera Donic Waldner Black Devil Carbon</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!--========== 8VA LINEA==========-->
+                                
+                                <div class="product-item col-xxl-2" category="Donic">
+                                    <a href="products/Maderas/Donic/appelgrenDotecCotrolR.html" style="color:#58555E;">
+                                        <div id="tarjeta" class="card">
+                                            <img src="products/photos/MaderaDonicAppelgrenDotecControlR-1.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                            <p class="card-text price">USD 148<span style="font-size: 14px; color:green;"></span></p>
+                                            <p class="card-text titleCard">Madera Donic Appelgren Dotec Cotrol R</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="product-item col-xxl-2" category="Donic">
+                                    <a href="products/Maderas/Donic/baumSpirit.html" style="color:#58555E;">
+                                        <div id="tarjeta" class="card">
+                                            <img src="products/photos/MaderaDonicBaumSpirit-1.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                            <p class="card-text price">USD 96<span style="font-size: 14px; color:green;"></span></p>
+                                            <p class="card-text titleCard">Madera Donic Baum Spirit</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="product-item col-xxl-2" category="Donic">
+                                    <a href="products/Maderas/Donic/alligatorCombi.html" style="color:#58555E;">
+                                        <div id="tarjeta" class="card">
+                                            <img src="products/photos/MaderaDonicAlligatorCombi-1.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                            <p class="card-text price">USD 77<span style="font-size: 14px; color:green;"></span></p>
+                                            <p class="card-text titleCard">Madera Donic Alligator Combi</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="product-item col-xxl-2" category="Donic">
+                                    <a href="products/Maderas/Donic/caymanDefensiva.html" style="color:#58555E;">
+                                        <div id="tarjeta" class="card">
+                                            <img src="products/photos/MaderaDonicCaymanDefensiva-1.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                            <p class="card-text price">USD 83<span style="font-size: 14px; color:green;"></span></p>
+                                            <p class="card-text titleCard">Madera Donic Cayman Defensiva</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="product-item col-xxl-2" category="Andro">
+                                    <a href="products/Maderas/Andro/novacellOFF-S.html" style="color:#58555E;">
+                                        <div id="tarjeta" class="card">
+                                            <img src="products/photos/MaderaAndroNovacellOFF-S-1.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                            <p class="card-text price">USD 66<span style="font-size: 14px; color:green;"></span></p>
+                                            <p class="card-text titleCard">Madera Andro Novacell OFF/S</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="product-item col-xxl-2" category="Andro">
+                                    <a href="products/Maderas/Andro/timber5DEF.html" style="color:#58555E;">
+                                        <div id="tarjeta" class="card">
+                                            <img src="products/photos/MaderaAndroTimber5DEF-1.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                            <p class="card-text price">USD 56<span style="font-size: 14px; color:green;"></span></p>
+                                            <p class="card-text titleCard">Madera Andro Timber 5 DEF</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!--========== 9NA LINEA==========-->
+                                
+                                <div class="product-item col-xxl-2" category="Andro">
+                                    <a href="products/Maderas/Andro/wanokiwamiRENOFF.html" style="color:#58555E;">
+                                        <div id="tarjeta" class="card">
+                                            <img src="products/photos/MaderaAndroWanokiwamiRENOFF-1.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                            <p class="card-text price">USD 210<span style="font-size: 14px; color:green;"></span></p>
+                                            <p class="card-text titleCard">Madera Andro Wanokiwami Ren OFF</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="product-item col-xxl-2" category="Donic">
+                                    <a href="products/Maderas/Donic/allroundSchildkrot.html" style="color:#58555E;">
+                                        <div id="tarjeta" class="card">
+                                            <img src="products/photos/MaderaDonicAllroundSchildkrot-1.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                            <p class="card-text price">USD 44<span style="font-size: 14px; color:green;"></span></p>
+                                            <p class="card-text titleCard">Madera Donic Allround Shildkrot</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="product-item col-xxl-2" category="Donic">
+                                    <a href="products/Maderas/Donic/waldnerEdiciónEspecial2016.html" style="color:#58555E;">
+                                        <div id="tarjeta" class="card">
+                                            <img src="products/photos/MaderaDonicWaldnerEdiciónEspecial2016OFF-1.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                            <p class="card-text price">USD 81<span style="font-size: 14px; color:green;"></span></p>
+                                            <p class="card-text titleCard">Madera Donic Waldner Edicion Especial 2016 OFF</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="product-item col-xxl-2" category="Donic">
+                                    <a href="products/Maderas/Donic/waldnerExclusiveAR+.html" style="color:#58555E;">
+                                        <div id="tarjeta" class="card">
+                                            <img src="products/photos/MaderaDonicWaldnerExclusiveAR+-1.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                            <p class="card-text price">USD 55<span style="font-size: 14px; color:green;"></span></p>
+                                            <p class="card-text titleCard">Madera Donic Waldner Exclusive AR +</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="product-item col-xxl-2" category="Donic">
+                                    <a href="products/Maderas/Donic/EPOXTOPSPEEDCO.html" style="color:#58555E;">
+                                        <div id="tarjeta" class="card">
+                                            <img src="products/photos/MaderaDonicEPOXTOPSPEEDCO-1.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                            <p class="card-text price">USD 108<span style="font-size: 14px; color:green;"></span></p>
+                                            <p class="card-text titleCard">Madera Donic Epox Top Speed CO</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="product-item col-xxl-2" category="Donic">
+                                    <a href="products/Maderas/Donic/waldnerSensoUltraCarbon.html" style="color:#58555E;">
+                                        <div id="tarjeta" class="card">
+                                            <img src="products/photos/MaderaDonicWaldnerSensoUltraCarbon-1.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                            <p class="card-text price">USD 119<span style="font-size: 14px; color:green;"></span></p>
+                                            <p class="card-text titleCard">Madera Donic Waldner Senso Ultra Carbon</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                <!--========== 10MA LINEA==========-->
+                                <div class="product-item col-xxl-2" category="Nittaku">
+                                    <a href="products/Maderas/Nittaku/flyattCarbon.html" style="color:#58555E;">
+                                        <div id="tarjeta" class="card">
+                                            <img src="products/photos/MaderaNittakuFlyattCarbon-1.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                            <p class="card-text price">USD 90<span style="font-size: 14px; color:green;"></span></p>
+                                            <p class="card-text titleCard">Madera Nittaku Flyatt Carbon</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="product-item col-xxl-2" category="Nittaku">
+                                    <a href="products/Maderas/Nittaku/leaves.html" style="color:#58555E;">
+                                        <div id="tarjeta" class="card">
+                                            <img src="products/photos/MaderaNittakuLeaves-1.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                            <p class="card-text price">USD 60<span style="font-size: 14px; color:green;"></span></p>
+                                            <p class="card-text titleCard">Madera Nittaku Leaves</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="product-item col-xxl-2" category="Butterfly">
+                                    <a href="products/Maderas/Buttefly/mazunov.html" style="color:#58555E;">
+                                        <div id="tarjeta" class="card">
+                                            <img src="products/photos/MaderaButterflyMazunov-1.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                            <p class="card-text price">USD 86<span style="font-size: 14px; color:green;"></span></p>
+                                            <p class="card-text titleCard">Madera Butterfly Mazunov</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="product-item col-xxl-2" category="Butterfly">
+                                    <a href="products/Maderas/Buttefly/timoBollSpirit.html" style="color:#58555E;">
+                                        <div id="tarjeta" class="card">
+                                            <img src="products/photos/MaderaButterflyTimoBollSpirit-1.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                            <p class="card-text price">USD 160<span style="font-size: 14px; color:green;"></span></p>
+                                            <p class="card-text titleCard">Madera Butterfly Timo Boll Spirit</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="product-item col-xxl-2" category="Butterfly">
+                                    <a href="products/Maderas/Buttefly/hadrawVR.html" style="color:#58555E;">
+                                        <div id="tarjeta" class="card">
+                                            <img src="products/photos/MaderaButterflyHadrawVR-1.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                            <p class="card-text price">USD 134<span style="font-size: 14px; color:green;"></span></p>
+                                            <p class="card-text titleCard">Madera Butterfly Hadraw VR</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="product-item col-xxl-2" category="Donic">
+                                    <a href="products/Maderas/Donic/defplaySensoDefensiva.html" style="color:#58555E;">
+                                        <div id="tarjeta" class="card">
+                                            <img src="products/photos/MaderaDonicDefplaySensoDefensiva-1.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                            <p class="card-text price">USD 77<span style="font-size: 14px; color:green;"></span></p>
+                                            <p class="card-text titleCard">Madera Donic Defplay Senso Defensiva</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+
+                                 <!--========== 11MA LINEA==========-->
+
+
+
+                                <div class="product-item col-xxl-2" category="Andro">
+                                    <a href="products/Maderas/Andro/timber5ALL-S.html" style="color:#58555E;">
+                                        <div id="tarjeta" class="card">
+                                            <img src="products/photos/MaderaAndroTimber5ALL-S-1.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                            <p class="card-text price">USD 66<span style="font-size: 14px; color:green;"></span></p>
+                                            <p class="card-text titleCard">Madera Andro Timber 5 All/S</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="product-item col-xxl-2" category="Andro">
+                                    <a href="products/Maderas/Andro/timber5OFF.html" style="color:#58555E;">
+                                        <div id="tarjeta" class="card">
+                                            <img src="products/photos/MaderaAndroTimber5OFF-1.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                            <p class="card-text price">USD 71<span style="font-size: 14px; color:green;"></span></p>
+                                            <p class="card-text titleCard">Madera Andro Timber 5 OFF</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="product-item col-xxl-2" category="Andro">
+                                    <a href="products/Maderas/Andro/treiberFIOFF.html" style="color:#58555E;">
+                                        <div id="tarjeta" class="card">
+                                            <img src="products/photos/MaderaAndroTreiberFIOFF-1.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                            <p class="card-text price">USD 106<span style="font-size: 14px; color:green;"></span></p>
+                                            <p class="card-text titleCard">Madera Andro Treiber FI OFF</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="product-item col-xxl-2" category="Butterfly">
+                                    <a href="products/Maderas/Buttefly/zhangJikeALC.html" style="color:#58555E;">
+                                        <div id="tarjeta" class="card">
+                                            <img src="products/photos/MaderaButterflyZhangJikeALC-1.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                            <p class="card-text price">USD 236<span style="font-size: 14px; color:green;"></span></p>
+                                            <p class="card-text titleCard">Madera Butterfly Zhang Jike ALC</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="product-item col-xxl-2" category="Andro">
+                                    <a href="products/Maderas/Andro/novacellALL-S.html" style="color:#58555E;">
+                                        <div id="tarjeta" class="card">
+                                            <img src="products/photos/MaderaAndroNovacellALL-S-1.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                            <p class="card-text price">USD 66<span style="font-size: 14px; color:green;"></span></p>
+                                            <p class="card-text titleCard">Madera Andro Novacell All/S</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="product-item col-xxl-2" category="Andro">
+                                    <a href="products/Maderas/Andro/novacellOFF.html" style="color:#58555E;">
+                                        <div id="tarjeta" class="card">
+                                            <img src="products/photos/MaderaAndroNovacellOFF-1.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                            <p class="card-text price">USD 66<span style="font-size: 14px; color:green;"></span></p>
+                                            <p class="card-text titleCard">Madera Andro Novacell OFF</p>
+                                            </div>
+                                        </div>
+                                    </a>
+                                </div>
+                                <!--========== 12MA LINEA==========-->
+                                <!--========== XIOM ==========-->
+                                <div class="product-item col-xxl-2" category="Xiom">
+                                    <a href="products/Maderas/Xiom/iceCreamAZX.html" style="color:#58555E;">
+                                        <div id="tarjeta" class="card">
+                                            <img src="products/photos/MaderaXiomIceCreamAZX-1.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                            <p class="card-text price">USD 180<span style="font-size: 14px; color:green;"></span></p>
+                                            <p class="card-text titleCard">Madera Xiom Ice Cream AZX</p>
+                                            </div>
+                                        </div>
+                                    </a>
                                 </div>
                                 <div class="product-item col-xxl-2" category="Xiom">
-                                    <div class="card" >
-                                        <img src="products/photos/GomaXiomOmegaVIIPro-1.jpg" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                          <p class="card-text price">USD 90 <span style="font-size: 1.8vh; color:green;">10% OFF</span></p>
-                                          <p class="card-text titleCard">Goma Xiom</p>
+                                    <a href="products/Maderas/Xiom/zetaOffensive+.html" style="color:#58555E;">
+                                        <div id="tarjeta" class="card">
+                                            <img src="products/photos/MaderaXiomZetaOffensive+-1.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                            <p class="card-text price">USD 60<span style="font-size: 14px; color:green;"></span></p>
+                                            <p class="card-text titleCard">Madera Xiom Zeta Offensive +</p>
+                                            </div>
                                         </div>
-                                      </div>
+                                    </a>
                                 </div>
-                                <div class="product-item col-xxl-2" category="Butterfly">
-                                    <div class="card" >
-                                        <img src="products/photos/GomaButterflyDIGNICS80-1.jpg" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                          <p class="card-text price">USD 90 <span style="font-size: 1.8vh; color:green;">10% OFF</span></p>
-                                          <p class="card-text titleCard">Goma Butterfly DIGNICS 09C</p>
+                                <div class="product-item col-xxl-2" category="Andro">
+                                    <a href="products/Maderas/Andro/gauzyBL7OFF.html" style="color:#58555E;">
+                                        <div id="tarjeta" class="card">
+                                            <img src="products/photos/MaderaAndroGauxyBL7OFF-1.jpg" class="card-img-top" alt="...">
+                                            <div class="card-body">
+                                            <p class="card-text price">USD 57<span style="font-size: 14px; color:green;"></span></p>
+                                            <p class="card-text titleCard">Madera Andro Gauxy BL7 OFF</p>
+                                            </div>
                                         </div>
-                                      </div>
+                                    </a>
                                 </div>
-                                <div class="product-item col-xxl-2" category="Victas">
-                                    <div class="card" >
-                                        <img src="products/photos/GomaButterflyFlextra-1.jpg" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                          <p class="card-text price">USD 90 <span style="font-size: 1.8vh; color:green;">10% OFF</span></p>
-                                          <p class="card-text titleCard">Goma Victas</p>
-                                        </div>
-                                      </div>
-                                </div>
-                                <div class="product-item col-xxl-2" category="Butterfly">
-                                    <div class="card" >
-                                        <img src="products/photos/GomaButterflySpinArt-1.jpg" class="card-img-top" alt="...">
-                                        <div class="card-body">
-                                          <p class="card-text price">USD 90 <span style="font-size: 1.8vh; color:green;">10% OFF</span></p>
-                                          <p class="card-text titleCard">Goma Butterfly DIGNICS 09C</p>
-                                        </div>
-                                      </div>
-                                </div>
+
                             </section>
                         </div>
                     </div>
