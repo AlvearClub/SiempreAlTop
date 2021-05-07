@@ -26,10 +26,11 @@
                 width:95%;
             }
             .titleCard{
-                font-size: 12px;
+                font-size: 15px;
             }
             .price{
-                font-size: 20px;
+                font-size: 23px;
+                font-weight: 500;
             }
             .card{
                 margin-bottom: 1.5vh;
@@ -618,13 +619,25 @@
 
                     <h1>Gomas</h1>
                     <p style="margin-top: 2vh;">Filtrar por: </p>
+                    
+                    <!--========== Busqueda por nombre ==========-->
+                    <div class="container text-center" style="margin-bottom: 3vh;">
+                        <div class="row justify-content-center">
+                            <div class="col-md-6">
+                                
+                                <input class="form-control" list="datalistOptions" id="exampleDataList" onkeyup="myFunction()" placeholder="Busqueda por nombre...">
+                                
+                            </div>
+                        </div>
+                    </div>
+
                 </div>
 
-
                 <div class="container" style="margin-bottom: 3vh;">
+                    
                         <div class="row justify-content-center text-center">
                             
-
+                            
                             
                                 <div class="col-lg-1" style="width: 100px;">
                                     <a href="#" class="category_item" category="all" style="color:#cb4335; font-size: 12px;">Todas <br> las marcas</a>
@@ -666,7 +679,7 @@
                         <div class="col-xl-12">
 
                             <!--========== Lista de Productos ==========-->
-                            <section class="products-list row" >
+                            <section class="products-list row" id="myTable" >
 
 
                             <!--========== BUTTERFLY ==========-->
@@ -1931,5 +1944,28 @@
 
         <!--========== MAIN JS ==========-->
         <script src="assets/js/main.js"></script>
+        <script>
+            function myFunction() {
+            // Declare variables
+            var input, filter, table, tr, td, i, txtValue;
+            input = document.getElementById("exampleDataList");
+            filter = input.value.toUpperCase();
+            table = document.getElementById("myTable");
+            tr = table.getElementsByClassName("product-item");
+    
+            // Loop through all table rows, and hide those who don't match the search query
+            for (i = 0; i < tr.length; i++) {
+                td = tr[i].getElementsByClassName("titleCard")[0];
+                if (td) {
+                txtValue = td.textContent || td.innerText;
+                if (txtValue.toUpperCase().indexOf(filter) > -1) {
+                    tr[i].style.display = "";
+                } else {
+                    tr[i].style.display = "none";
+                }
+                }
+            }
+            }
+        </script>
     </body>
 </html>
