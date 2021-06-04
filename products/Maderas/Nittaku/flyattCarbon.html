@@ -46,6 +46,20 @@
               a{
                   text-decoration: none;
               }
+              .precioCotizacion{
+                align-items: left;
+                justify-content: space-between;
+              }
+              .precioCotizacion button{
+                  height: 40px;
+              }
+
+              @media(max-width: 991px){
+                .precioCotizacion h1{
+                    margin-top: 1vh;
+                }
+              }
+
         </style>
 
         <style>
@@ -618,9 +632,18 @@
                     
                             <div class="col-xl-6" style="margin-top: 2vh;">
 
-                                <!--<h4 class="descuento"> USD 100 </h4>-->
-                                <h1> USD 90 <span class="precio"></span></h1>
-                                
+                                <div class="precioCotizacion" style="display: flex;">
+                                    <!--<h4 class="descuento"> USD 100 </h4>-->
+                                    <h1> USD 90 <span class="precio"></span></h1>
+
+                                     <!--https://www.dolarhoy.com/      dolar blue para resto de marcas-->
+                                     <!--https://www.dolarhoy.com/cotizacion-dolar-banco-nacion      dolar oficial banco nacion para marca donic-->
+                                    
+                                    <a href="https://www.dolarhoy.com/" style="list-style: none;" target="_blank">
+                                        <button type="button" class="btn btn-primary">Ver Cotizacion Dolar</button>
+                                    </a>
+                                </div>
+
                                 <hr>
 
                                 <h4>Descripcion</h4>
@@ -736,59 +759,61 @@
               <div class="container" style="margin-top: 4vh;">
                   
                     <h4 style="margin-bottom: 3vh;">Quienes vieron este producto tambien compraron</h4>
+                <div class="container">
+                    <div class="row slider justify-content-center">
 
-                  <div class="row slider justify-content-center">
-
-                    <!--========== Acoustic Carbon ==========-->         
-                    <div class="col-1 text-center" >
-                        <a href="acousticCarbon.html" style="color: #58555E;">
-                        <div class="card" style="width: 80%; margin:auto;">
-                            <img src="../../photos/MaderaNittakuAcousticCarbon-1.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                            <p class="card-text" style="font-size: 3vh;">USD 210<span style="font-size: 1.8vh; color:green;"></span></p>
-                            <p class="card-text">Madera Nittaku Acoustic Carbon</p>
+                        <!--========== Acoustic Carbon ==========-->         
+                        <div class="col-1 text-center" >
+                            <a href="acousticCarbon.html" style="color: #58555E;">
+                            <div class="card" style="width: 80%; margin:auto;">
+                                <img src="../../photos/MaderaNittakuAcousticCarbon-1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                <p class="card-text" style="font-size: 3vh;">USD 210<span style="font-size: 1.8vh; color:green;"></span></p>
+                                <p class="card-text">Madera Nittaku Acoustic Carbon</p>
+                                </div>
                             </div>
+                            </a>
                         </div>
-                        </a>
-                    </div>
-                    <!--========== Amin ==========--> 
-                    <div class="col-1 text-center" >
-                        <a href="amin.html" style="color: #58555E;">
-                        <div class="card" style="width: 80%; margin:auto;">
-                            <img src="../../photos/MaderaNittakuAmin-1.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                            <p class="card-text" style="font-size: 3vh;">USD 55<span style="font-size: 1.8vh; color:green;"></span></p>
-                            <p class="card-text">Madera Nittaku Amin</p>
+                        <!--========== Amin ==========--> 
+                        <div class="col-1 text-center" >
+                            <a href="amin.html" style="color: #58555E;">
+                            <div class="card" style="width: 80%; margin:auto;">
+                                <img src="../../photos/MaderaNittakuAmin-1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                <p class="card-text" style="font-size: 3vh;">USD 55<span style="font-size: 1.8vh; color:green;"></span></p>
+                                <p class="card-text">Madera Nittaku Amin</p>
+                                </div>
                             </div>
+                            </a>
                         </div>
-                        </a>
-                    </div>
-                    <!--========== Flyatt Carbon ==========--> 
-                    <div class="col-1 text-center" >
-                        <a href="flyattCarbon.html" style="color: #58555E;">
-                        <div class="card" style="width: 80%; margin:auto;">
-                            <img src="../../photos/MaderaNittakuFlyattCarbon-1.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                            <p class="card-text" style="font-size: 3vh;">USD 90<span style="font-size: 1.8vh; color:green;"></span></p>
-                            <p class="card-text">Madera Nittaku Flyatt Carbon</p>
+                        <!--========== Flyatt Carbon ==========--> 
+                        <div class="col-1 text-center" >
+                            <a href="flyattCarbon.html" style="color: #58555E;">
+                            <div class="card" style="width: 80%; margin:auto;">
+                                <img src="../../photos/MaderaNittakuFlyattCarbon-1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                <p class="card-text" style="font-size: 3vh;">USD 90<span style="font-size: 1.8vh; color:green;"></span></p>
+                                <p class="card-text">Madera Nittaku Flyatt Carbon</p>
+                                </div>
                             </div>
+                            </a>
                         </div>
-                        </a>
-                    </div>
-                    <!--========== Leaves ==========--> 
-                    <div class="col-1 text-center" >
-                        <a href="leaves.html" style="color: #58555E;">
-                        <div class="card" style="width: 80%; margin:auto;">
-                            <img src="../../photos/MaderaNittakuLeaves-1.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                            <p class="card-text" style="font-size: 3vh;">USD 60<span style="font-size: 1.8vh; color:green;"></span></p>
-                            <p class="card-text">Madera Nittaku Leaves</p>
+                        <!--========== Leaves ==========--> 
+                        <div class="col-1 text-center" >
+                            <a href="leaves.html" style="color: #58555E;">
+                            <div class="card" style="width: 80%; margin:auto;">
+                                <img src="../../photos/MaderaNittakuLeaves-1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                <p class="card-text" style="font-size: 3vh;">USD 60<span style="font-size: 1.8vh; color:green;"></span></p>
+                                <p class="card-text">Madera Nittaku Leaves</p>
+                                </div>
                             </div>
+                            </a>
                         </div>
-                        </a>
-                    </div>
-
-                  </div>
+    
+                      </div>
+                </div>
+                  
 
               </div>
                   

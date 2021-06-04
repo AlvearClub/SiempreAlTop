@@ -46,6 +46,19 @@
               a{
                   text-decoration: none;
               }
+              .precioCotizacion{
+                align-items: left;
+                justify-content: space-between;
+              }
+              .precioCotizacion button{
+                  height: 40px;
+              }
+
+              @media(max-width: 991px){
+                .precioCotizacion h1{
+                    margin-top: 1vh;
+                }
+              }
         </style>
 
         <style>
@@ -618,9 +631,17 @@
                     
                             <div class="col-xl-6" style="margin-top: 2vh;">
 
-                                <!--<h4 class="descuento"> USD 100 </h4>-->
-                                <h1> USD 376 <span class="precio"></span></h1>
-                                
+                                <div class="precioCotizacion" style="display: flex;">
+                                    <!--<h4 class="descuento"> USD 100 </h4>-->
+                                    <h1> USD 376 <span class="precio"></span></h1>
+
+                                     <!--https://www.dolarhoy.com/      dolar blue para resto de marcas-->
+                                     <!--https://www.dolarhoy.com/cotizacion-dolar-banco-nacion      dolar oficial banco nacion para marca donic-->
+                                    
+                                    <a href="https://www.dolarhoy.com/cotizacion-dolar-banco-nacion" style="list-style: none;" target="_blank">
+                                        <button type="button" class="btn btn-primary">Ver Cotizacion Dolar</button>
+                                    </a>
+                                </div>
                                 <hr>
 
                                 <h4>Descripcion</h4>
@@ -740,71 +761,73 @@
               <div class="container" style="margin-top: 4vh;">
                   
                     <h4 style="margin-bottom: 3vh;">Quienes vieron este producto tambien compraron</h4>
+                <div class="container">
+                    <div class="row slider justify-content-center">
 
-                  <div class="row slider justify-content-center">
-
-                    <!--========== Appelgren Dotec Cotrol R ==========-->         
-                    <div class="col-1 text-center" >
-                        <a href="appelgrenDotecCotrolR.html" style="color: #58555E;">
-                        <div class="card" style="width: 80%; margin:auto;">
-                            <img src="../../photos/MaderaDonicAppelgrenDotecControlR-1.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                            <p class="card-text" style="font-size: 3vh;">USD 148<span style="font-size: 1.8vh; color:green;"></span></p>
-                            <p class="card-text">Madera Donic Appelgren Dotec Cotrol R</p>
+                        <!--========== Appelgren Dotec Cotrol R ==========-->         
+                        <div class="col-1 text-center" >
+                            <a href="appelgrenDotecCotrolR.html" style="color: #58555E;">
+                            <div class="card" style="width: 80%; margin:auto;">
+                                <img src="../../photos/MaderaDonicAppelgrenDotecControlR-1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                <p class="card-text" style="font-size: 3vh;">USD 148<span style="font-size: 1.8vh; color:green;"></span></p>
+                                <p class="card-text">Madera Donic Appelgren Dotec Cotrol R</p>
+                                </div>
                             </div>
+                            </a>
                         </div>
-                        </a>
-                    </div>
-                    <!--========== EPOX OFF CO ==========--> 
-                    <div class="col-1 text-center" >
-                        <a href="ePOXOFFCO.html" style="color: #58555E;">
-                        <div class="card" style="width: 80%; margin:auto;">
-                            <img src="../../photos/MaderaDonicEPOXOFFCO-1.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                            <p class="card-text" style="font-size: 3vh;">USD 105<span style="font-size: 1.8vh; color:green;"></span></p>
-                            <p class="card-text">Madera Donic EPOX OFF CO</p>
+                        <!--========== EPOX OFF CO ==========--> 
+                        <div class="col-1 text-center" >
+                            <a href="ePOXOFFCO.html" style="color: #58555E;">
+                            <div class="card" style="width: 80%; margin:auto;">
+                                <img src="../../photos/MaderaDonicEPOXOFFCO-1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                <p class="card-text" style="font-size: 3vh;">USD 105<span style="font-size: 1.8vh; color:green;"></span></p>
+                                <p class="card-text">Madera Donic EPOX OFF CO</p>
+                                </div>
                             </div>
+                            </a>
                         </div>
-                        </a>
-                    </div>
-                    <!--========== EPOX TOPSPEED CO ==========--> 
-                    <div class="col-1 text-center" >
-                        <a href="EPOXTOPSPEEDCO.html" style="color: #58555E;">
-                        <div class="card" style="width: 80%; margin:auto;">
-                            <img src="../../photos/MaderaDonicEPOXTOPSPEEDCO-1.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                            <p class="card-text" style="font-size: 3vh;">USD 108<span style="font-size: 1.8vh; color:green;"></span></p>
-                            <p class="card-text">Madera Donic EPOX TOPSPEED CO</p>
+                        <!--========== EPOX TOPSPEED CO ==========--> 
+                        <div class="col-1 text-center" >
+                            <a href="EPOXTOPSPEEDCO.html" style="color: #58555E;">
+                            <div class="card" style="width: 80%; margin:auto;">
+                                <img src="../../photos/MaderaDonicEPOXTOPSPEEDCO-1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                <p class="card-text" style="font-size: 3vh;">USD 108<span style="font-size: 1.8vh; color:green;"></span></p>
+                                <p class="card-text">Madera Donic EPOX TOPSPEED CO</p>
+                                </div>
                             </div>
+                            </a>
                         </div>
-                        </a>
-                    </div>
-                    <!--========== Waldner Black Devil Carbon Balsa ==========--> 
-                    <div class="col-1 text-center" >
-                        <a href="waldnerBlackDevilCarbon.html" style="color: #58555E;">
-                        <div class="card" style="width: 80%; margin:auto;">
-                            <img src="../../photos/MaderaDonicWaldnerBlackDevilCarbonBalsa-1.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                            <p class="card-text" style="font-size: 3vh;">USD 173<span style="font-size: 1.8vh; color:green;"></span></p>
-                            <p class="card-text">Madera Donic Waldner Black Devil Carbon Balsa</p>
+                        <!--========== Waldner Black Devil Carbon Balsa ==========--> 
+                        <div class="col-1 text-center" >
+                            <a href="waldnerBlackDevilCarbon.html" style="color: #58555E;">
+                            <div class="card" style="width: 80%; margin:auto;">
+                                <img src="../../photos/MaderaDonicWaldnerBlackDevilCarbonBalsa-1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                <p class="card-text" style="font-size: 3vh;">USD 173<span style="font-size: 1.8vh; color:green;"></span></p>
+                                <p class="card-text">Madera Donic Waldner Black Devil Carbon Balsa</p>
+                                </div>
                             </div>
+                            </a>
                         </div>
-                        </a>
-                    </div>
-                    <!--========== Waldner Senso Ultra Carbon ==========--> 
-                    <div class="col-1 text-center" >
-                        <a href="waldnerSensoUltraCarbon.html" style="color: #58555E;">
-                        <div class="card" style="width: 80%; margin:auto;">
-                            <img src="../../photos/MaderaDonicWaldnerSensoUltraCarbon-1.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                            <p class="card-text" style="font-size: 3vh;">USD 119<span style="font-size: 1.8vh; color:green;"></span></p>
-                            <p class="card-text">Madera Donic Waldner Senso Ultra Carbon</p>
+                        <!--========== Waldner Senso Ultra Carbon ==========--> 
+                        <div class="col-1 text-center" >
+                            <a href="waldnerSensoUltraCarbon.html" style="color: #58555E;">
+                            <div class="card" style="width: 80%; margin:auto;">
+                                <img src="../../photos/MaderaDonicWaldnerSensoUltraCarbon-1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                <p class="card-text" style="font-size: 3vh;">USD 119<span style="font-size: 1.8vh; color:green;"></span></p>
+                                <p class="card-text">Madera Donic Waldner Senso Ultra Carbon</p>
+                                </div>
                             </div>
+                            </a>
                         </div>
-                        </a>
-                    </div>
-
-                  </div>
+    
+                      </div>
+                </div>
+                  
 
               </div>
                   
