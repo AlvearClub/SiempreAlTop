@@ -46,6 +46,19 @@
               a{
                   text-decoration: none;
               }
+              .precioCotizacion{
+                align-items: left;
+                justify-content: space-between;
+              }
+              .precioCotizacion button{
+                  height: 40px;
+              }
+
+              @media(max-width: 991px){
+                .precioCotizacion h1{
+                    margin-top: 1vh;
+                }
+              }
         </style>
 
         <style>
@@ -617,9 +630,17 @@
                     
                             <div class="col-xl-6" style="margin-top: 2vh;">
 
-                                <!--<h4 class="descuento"> USD 100 </h4>-->
-                                <h1> USD 7 <span class="precio"></span></h1>
-                                
+                                <div class="precioCotizacion" style="display: flex;">
+                                    <!--<h4 class="descuento"> USD 100 </h4>-->
+                                    <h1> USD 7 <span class="precio"></span></h1>
+
+                                     <!--https://www.dolarhoy.com/      dolar blue para resto de marcas-->
+                                     <!--https://www.dolarhoy.com/cotizacion-dolar-banco-nacion      dolar oficial banco nacion para marca donic-->
+                                    
+                                    <a href="https://www.dolarhoy.com/" style="list-style: none;" target="_blank">
+                                        <button type="button" class="btn btn-primary">Ver Cotizacion Dolar</button>
+                                    </a>
+                                </div>
                                 <hr>
 
                                 <h4 style="display: none;">Descripcion</h4>
@@ -718,71 +739,73 @@
               <div class="container" style="margin-top: 4vh;">
                   
                     <h4 style="margin-bottom: 3vh;">Quienes vieron este producto tambien compraron</h4>
+                <div class="container">
+                    <div class="row slider justify-content-center">
 
-                  <div class="row slider justify-content-center">
-
-                    <!--========== Donic Bolso Toledo (naranja-negro.gris) ==========-->         
-                    <div class="col-1 text-center" >
-                        <a href="../Donic/bolsoToledo(naranja-negro-gris).html" style="color: #58555E;">
-                        <div class="card" style="width: 80%; margin:auto;">
-                            <img src="../../photos/BolsoDonicToledo(naranja-negro-gris)-1.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                            <p class="card-text" style="font-size: 3vh;">USD 105<span style="font-size: 1.8vh; color:green;"></span></p>
-                            <p class="card-text">Bolso Donic Toledo (naranja/negro/gris)</p>
+                        <!--========== Donic Bolso Toledo (naranja-negro.gris) ==========-->         
+                        <div class="col-1 text-center" >
+                            <a href="../Donic/bolsoToledo(naranja-negro-gris).html" style="color: #58555E;">
+                            <div class="card" style="width: 80%; margin:auto;">
+                                <img src="../../photos/BolsoDonicToledo(naranja-negro-gris)-1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                <p class="card-text" style="font-size: 3vh;">USD 105<span style="font-size: 1.8vh; color:green;"></span></p>
+                                <p class="card-text">Bolso Donic Toledo (naranja/negro/gris)</p>
+                                </div>
                             </div>
+                            </a>
                         </div>
-                        </a>
-                    </div>
-                    <!--========== Xiom Estuche Neo 2 ==========--> 
-                    <div class="col-1 text-center" >
-                        <a href="../Xiom/estucheNeo2Xiom.html" style="color: #58555E;">
-                        <div class="card" style="width: 80%; margin:auto;">
-                            <img src="../../photos/EstucheXiomNeo2-1.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                            <p class="card-text" style="font-size: 3vh;">USD 14<span style="font-size: 1.8vh; color:green;"></span></p>
-                            <p class="card-text">Estuche Neo 2 Xiom</p>
+                        <!--========== Xiom Estuche Neo 2 ==========--> 
+                        <div class="col-1 text-center" >
+                            <a href="../Xiom/estucheNeo2Xiom.html" style="color: #58555E;">
+                            <div class="card" style="width: 80%; margin:auto;">
+                                <img src="../../photos/EstucheXiomNeo2-1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                <p class="card-text" style="font-size: 3vh;">USD 14<span style="font-size: 1.8vh; color:green;"></span></p>
+                                <p class="card-text">Estuche Neo 2 Xiom</p>
+                                </div>
                             </div>
+                            </a>
                         </div>
-                        </a>
-                    </div>
-                    <!--========== Butterfly Liquido limpiador de goma (150ml) ==========--> 
-                    <div class="col-1 text-center" >
-                        <a href="../Butterfly/liquidoLimpiadorDeGoma(150ml).html" style="color: #58555E;">
-                        <div class="card" style="width: 80%; margin:auto;">
-                            <img src="../../photos/LimpiadorGomasButterfly(150ml)-1.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                            <p class="card-text" style="font-size: 3vh;">USD 14<span style="font-size: 1.8vh; color:green;"></span></p>
-                            <p class="card-text">Liquido limpiador de goma Butterfly (150ml)</p>
+                        <!--========== Butterfly Liquido limpiador de goma (150ml) ==========--> 
+                        <div class="col-1 text-center" >
+                            <a href="../Butterfly/liquidoLimpiadorDeGoma(150ml).html" style="color: #58555E;">
+                            <div class="card" style="width: 80%; margin:auto;">
+                                <img src="../../photos/LimpiadorGomasButterfly(150ml)-1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                <p class="card-text" style="font-size: 3vh;">USD 14<span style="font-size: 1.8vh; color:green;"></span></p>
+                                <p class="card-text">Liquido limpiador de goma Butterfly (150ml)</p>
+                                </div>
                             </div>
+                            </a>
                         </div>
-                        </a>
-                    </div>
-                    <!--========== Butterfly Cinta Protectora RBII ==========--> 
-                    <div class="col-1 text-center" >
-                        <a href="../Butterfly/cintaProtectoraRBII.html" style="color: #58555E;">
-                        <div class="card" style="width: 80%; margin:auto;">
-                            <img src="../../photos/CintaButterflyRBII-1.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                            <p class="card-text" style="font-size: 3vh;">USD 5<span style="font-size: 1.8vh; color:green;"></span></p>
-                            <p class="card-text">Cinta Portectora RBII Butterfly</p>
+                        <!--========== Butterfly Cinta Protectora RBII ==========--> 
+                        <div class="col-1 text-center" >
+                            <a href="../Butterfly/cintaProtectoraRBII.html" style="color: #58555E;">
+                            <div class="card" style="width: 80%; margin:auto;">
+                                <img src="../../photos/CintaButterflyRBII-1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                <p class="card-text" style="font-size: 3vh;">USD 5<span style="font-size: 1.8vh; color:green;"></span></p>
+                                <p class="card-text">Cinta Portectora RBII Butterfly</p>
+                                </div>
                             </div>
+                            </a>
                         </div>
-                        </a>
-                    </div>
-                    <!--========== Toalla Nittaku ==========--> 
-                    <div class="col-1 text-center" >
-                        <a href="../Nittaku/toallaNittaku.html" style="color: #58555E;">
-                        <div class="card" style="width: 80%; margin:auto;">
-                            <img src="../../photos/ToallaNittaku-1.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                            <p class="card-text" style="font-size: 3vh;">USD 18<span style="font-size: 1.8vh; color:green;"></span></p>
-                            <p class="card-text">Toalla Nittaku</p>
+                        <!--========== Toalla Nittaku ==========--> 
+                        <div class="col-1 text-center" >
+                            <a href="../Nittaku/toallaNittaku.html" style="color: #58555E;">
+                            <div class="card" style="width: 80%; margin:auto;">
+                                <img src="../../photos/ToallaNittaku-1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                <p class="card-text" style="font-size: 3vh;">USD 18<span style="font-size: 1.8vh; color:green;"></span></p>
+                                <p class="card-text">Toalla Nittaku</p>
+                                </div>
                             </div>
+                            </a>
                         </div>
-                        </a>
-                    </div>
-
-                  </div>
+    
+                      </div>
+                </div>
+                  
 
               </div>
                   
