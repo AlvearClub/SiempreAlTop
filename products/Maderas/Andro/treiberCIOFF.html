@@ -46,6 +46,19 @@
               a{
                   text-decoration: none;
               }
+              .precioCotizacion{
+                align-items: left;
+                justify-content: space-between;
+              }
+              .precioCotizacion button{
+                  height: 40px;
+              }
+
+              @media(max-width: 991px){
+                .precioCotizacion h1{
+                    margin-top: 1vh;
+                }
+              }
         </style>
 
         <style>
@@ -618,9 +631,17 @@
                     
                             <div class="col-xl-6" style="margin-top: 2vh;">
 
-                                <!--<h4 class="descuento"> USD 100 </h4>-->
-                                <h1> USD 111 <span class="precio"></span></h1>
-                                
+                                <div class="precioCotizacion" style="display: flex;">
+                                    <!--<h4 class="descuento"> USD 100 </h4>-->
+                                    <h1> USD 111 <span class="precio"></span></h1>
+
+                                     <!--https://www.dolarhoy.com/      dolar blue para resto de marcas-->
+                                     <!--https://www.dolarhoy.com/cotizacion-dolar-banco-nacion      dolar oficial banco nacion para marca donic-->
+                                    
+                                    <a href="https://www.dolarhoy.com/" style="list-style: none;" target="_blank">
+                                        <button type="button" class="btn btn-primary">Ver Cotizacion Dolar</button>
+                                    </a>
+                                </div>
                                 <hr>
 
                                 <h4>Descripcion</h4>
@@ -739,71 +760,73 @@
               <div class="container" style="margin-top: 4vh;">
                   
                     <h4 style="margin-bottom: 3vh;">Quienes vieron este producto tambien compraron</h4>
+                <div class="container">
+                    <div class="row slider justify-content-center">
 
-                  <div class="row slider justify-content-center">
-
-                    <!--========== Gauzy SL OFF ==========-->         
-                    <div class="col-1 text-center" >
-                        <a href="gauzySLOFF.html" style="color: #58555E;">
-                        <div class="card" style="width: 80%; margin:auto;">
-                            <img src="../../photos/MaderaAndroGauzySLOFF-1.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                            <p class="card-text" style="font-size: 3vh;">USD 153<span style="font-size: 1.8vh; color:green;"></span></p>
-                            <p class="card-text">Madera Andro Gauzy SL OFF</p>
+                        <!--========== Gauzy SL OFF ==========-->         
+                        <div class="col-1 text-center" >
+                            <a href="gauzySLOFF.html" style="color: #58555E;">
+                            <div class="card" style="width: 80%; margin:auto;">
+                                <img src="../../photos/MaderaAndroGauzySLOFF-1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                <p class="card-text" style="font-size: 3vh;">USD 153<span style="font-size: 1.8vh; color:green;"></span></p>
+                                <p class="card-text">Madera Andro Gauzy SL OFF</p>
+                                </div>
                             </div>
+                            </a>
                         </div>
-                        </a>
-                    </div>
-                    <!--========== TP_LIGNA OFF/S ==========--> 
-                    <div class="col-1 text-center" >
-                        <a href="tPLIGNAOFF-S.html" style="color: #58555E;">
-                        <div class="card" style="width: 80%; margin:auto;">
-                            <img src="../../photos/MaderaAndroTP_LIGNAOFF-S-1.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                            <p class="card-text" style="font-size: 3vh;">USD 148<span style="font-size: 1.8vh; color:green;"></span></p>
-                            <p class="card-text">Madera Andro TP LIGNA OFF/S</p>
+                        <!--========== TP_LIGNA OFF/S ==========--> 
+                        <div class="col-1 text-center" >
+                            <a href="tPLIGNAOFF-S.html" style="color: #58555E;">
+                            <div class="card" style="width: 80%; margin:auto;">
+                                <img src="../../photos/MaderaAndroTP_LIGNAOFF-S-1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                <p class="card-text" style="font-size: 3vh;">USD 148<span style="font-size: 1.8vh; color:green;"></span></p>
+                                <p class="card-text">Madera Andro TP LIGNA OFF/S</p>
+                                </div>
                             </div>
+                            </a>
                         </div>
-                        </a>
-                    </div>
-                    <!--========== TP_LINGA CI OFF ==========--> 
-                    <div class="col-1 text-center" >
-                        <a href="tPLINGACIOFF.html" style="color: #58555E;">
-                        <div class="card" style="width: 80%; margin:auto;">
-                            <img src="../../photos/MaderaAndroTP_LINGACIOFF-1.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                            <p class="card-text" style="font-size: 3vh;">USD 159<span style="font-size: 1.8vh; color:green;"></span></p>
-                            <p class="card-text">Madera Andro TP LIGNA CI OFF</p>
+                        <!--========== TP_LINGA CI OFF ==========--> 
+                        <div class="col-1 text-center" >
+                            <a href="tPLINGACIOFF.html" style="color: #58555E;">
+                            <div class="card" style="width: 80%; margin:auto;">
+                                <img src="../../photos/MaderaAndroTP_LINGACIOFF-1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                <p class="card-text" style="font-size: 3vh;">USD 159<span style="font-size: 1.8vh; color:green;"></span></p>
+                                <p class="card-text">Madera Andro TP LIGNA CI OFF</p>
+                                </div>
                             </div>
+                            </a>
                         </div>
-                        </a>
-                    </div>
-                    <!--========== TP_LINGA CO OFF ==========--> 
-                    <div class="col-1 text-center" >
-                        <a href="tPLINGACOOFF.html" style="color: #58555E;">
-                        <div class="card" style="width: 80%; margin:auto;">
-                            <img src="../../photos/MaderaAndroTP_LINGACOOFF-1.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                            <p class="card-text" style="font-size: 3vh;">USD 159<span style="font-size: 1.8vh; color:green;"></span></p>
-                            <p class="card-text">Madera Andro TP LINGA CO OFF</p>
+                        <!--========== TP_LINGA CO OFF ==========--> 
+                        <div class="col-1 text-center" >
+                            <a href="tPLINGACOOFF.html" style="color: #58555E;">
+                            <div class="card" style="width: 80%; margin:auto;">
+                                <img src="../../photos/MaderaAndroTP_LINGACOOFF-1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                <p class="card-text" style="font-size: 3vh;">USD 159<span style="font-size: 1.8vh; color:green;"></span></p>
+                                <p class="card-text">Madera Andro TP LINGA CO OFF</p>
+                                </div>
                             </div>
+                            </a>
                         </div>
-                        </a>
-                    </div>
-                    <!--========== Wanokiwami REN OFF ==========--> 
-                    <div class="col-1 text-center" >
-                        <a href="wanokiwamiRENOFF.html" style="color: #58555E;">
-                        <div class="card" style="width: 80%; margin:auto;">
-                            <img src="../../photos/MaderaAndroWanokiwamiRENOFF-1.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                            <p class="card-text" style="font-size: 3vh;">USD 210<span style="font-size: 1.8vh; color:green;"></span></p>
-                            <p class="card-text">Madera Andro Wanokiwami REN OFF</p>
+                        <!--========== Wanokiwami REN OFF ==========--> 
+                        <div class="col-1 text-center" >
+                            <a href="wanokiwamiRENOFF.html" style="color: #58555E;">
+                            <div class="card" style="width: 80%; margin:auto;">
+                                <img src="../../photos/MaderaAndroWanokiwamiRENOFF-1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                <p class="card-text" style="font-size: 3vh;">USD 210<span style="font-size: 1.8vh; color:green;"></span></p>
+                                <p class="card-text">Madera Andro Wanokiwami REN OFF</p>
+                                </div>
                             </div>
+                            </a>
                         </div>
-                        </a>
-                    </div>
-
-                  </div>
+    
+                      </div>
+                </div>
+                  
 
               </div>
                   
