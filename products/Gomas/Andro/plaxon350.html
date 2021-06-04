@@ -46,6 +46,19 @@
               a{
                   text-decoration: none;
               }
+              .precioCotizacion{
+                align-items: left;
+                justify-content: space-between;
+              }
+              .precioCotizacion button{
+                  height: 40px;
+              }
+
+              @media(max-width: 991px){
+                .precioCotizacion h1{
+                    margin-top: 1vh;
+                }
+              }
         </style>
 
         <style>
@@ -618,9 +631,18 @@
                     
                             <div class="col-xl-6" style="margin-top: 2vh;">
 
-                                <!--<h4 class="descuento"> USD 100 </h4>-->
-                                <h1> USD 42 <span class="precio"></span></h1>
-                                
+                                <div class="precioCotizacion" style="display: flex;">
+                                    <!--<h4 class="descuento"> USD 100 </h4>-->
+                                    <h1> USD 42 <span class="precio"></span></h1>
+
+                                     <!--https://www.dolarhoy.com/      dolar blue para resto de marcas-->
+                                     <!--https://www.dolarhoy.com/cotizacion-dolar-banco-nacion      dolar oficial banco nacion para marca donic-->
+                                    
+                                    <a href="https://www.dolarhoy.com/" style="list-style: none;" target="_blank">
+                                        <button type="button" class="btn btn-primary">Ver Cotizacion Dolar</button>
+                                    </a>
+                                </div>
+
                                 <hr>
 
                                 <h4>Descripcion</h4>
@@ -724,107 +746,109 @@
               <div class="container" style="margin-top: 4vh;">
                   
                     <h4 style="margin-bottom: 3vh;">Quienes vieron este producto tambien compraron</h4>
+                <div class="container">
+                    <div class="row slider justify-content-center">
 
-                  <div class="row slider justify-content-center">
-
-                    <!--========== Rasanter R37 ==========-->         
-                    <div class="col-1 text-center" >
-                        <a href="rasanterR37.html" style="color: #58555E;">
-                        <div class="card" style="width: 80%; margin:auto;">
-                            <img src="../../photos/GomaAndroRasanterR37-1.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                            <p class="card-text" style="font-size: 3vh;">USD 60<span style="font-size: 1.8vh; color:green;"></span></p>
-                            <p class="card-text">Goma Andro Rasanter R37</p>
+                        <!--========== Rasanter R37 ==========-->         
+                        <div class="col-1 text-center" >
+                            <a href="rasanterR37.html" style="color: #58555E;">
+                            <div class="card" style="width: 80%; margin:auto;">
+                                <img src="../../photos/GomaAndroRasanterR37-1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                <p class="card-text" style="font-size: 3vh;">USD 60<span style="font-size: 1.8vh; color:green;"></span></p>
+                                <p class="card-text">Goma Andro Rasanter R37</p>
+                                </div>
                             </div>
+                            </a>
                         </div>
-                        </a>
-                    </div>
-                    <!--========== Rasanter R42 ==========--> 
-                    <div class="col-1 text-center" >
-                        <a href="rasanterR42.html" style="color: #58555E;">
-                        <div class="card" style="width: 80%; margin:auto;">
-                            <img src="../../photos/GomaAndroRasanterR42-1.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                            <p class="card-text" style="font-size: 3vh;">USD 60<span style="font-size: 1.8vh; color:green;"></span></p>
-                            <p class="card-text">Goma Andro Rasanter R42</p>
+                        <!--========== Rasanter R42 ==========--> 
+                        <div class="col-1 text-center" >
+                            <a href="rasanterR42.html" style="color: #58555E;">
+                            <div class="card" style="width: 80%; margin:auto;">
+                                <img src="../../photos/GomaAndroRasanterR42-1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                <p class="card-text" style="font-size: 3vh;">USD 60<span style="font-size: 1.8vh; color:green;"></span></p>
+                                <p class="card-text">Goma Andro Rasanter R42</p>
+                                </div>
                             </div>
+                            </a>
                         </div>
-                        </a>
-                    </div>
-                    <!--========== Rasanter R47 ==========--> 
-                    <div class="col-1 text-center" >
-                        <a href="rasanterR47.html" style="color: #58555E;">
-                        <div class="card" style="width: 80%; margin:auto;">
-                            <img src="../../photos/GomaAndroRasanterR47.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                            <p class="card-text" style="font-size: 3vh;">USD 60<span style="font-size: 1.8vh; color:green;"></span></p>
-                            <p class="card-text">Goma Andro Rasanter R47</p>
+                        <!--========== Rasanter R47 ==========--> 
+                        <div class="col-1 text-center" >
+                            <a href="rasanterR47.html" style="color: #58555E;">
+                            <div class="card" style="width: 80%; margin:auto;">
+                                <img src="../../photos/GomaAndroRasanterR47.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                <p class="card-text" style="font-size: 3vh;">USD 60<span style="font-size: 1.8vh; color:green;"></span></p>
+                                <p class="card-text">Goma Andro Rasanter R47</p>
+                                </div>
                             </div>
+                            </a>
                         </div>
-                        </a>
-                    </div>
-                    <!--========== Rasanter R48 ==========--> 
-                    <div class="col-1 text-center" >
-                        <a href="rasanterR48.html" style="color: #58555E;">
-                        <div class="card" style="width: 80%; margin:auto;">
-                            <img src="../../photos/GomaAndroRasanterR48-1.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                            <p class="card-text" style="font-size: 3vh;">USD 70<span style="font-size: 1.8vh; color:green;"></span></p>
-                            <p class="card-text">Goma Andro Rasanter R48</p>
+                        <!--========== Rasanter R48 ==========--> 
+                        <div class="col-1 text-center" >
+                            <a href="rasanterR48.html" style="color: #58555E;">
+                            <div class="card" style="width: 80%; margin:auto;">
+                                <img src="../../photos/GomaAndroRasanterR48-1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                <p class="card-text" style="font-size: 3vh;">USD 70<span style="font-size: 1.8vh; color:green;"></span></p>
+                                <p class="card-text">Goma Andro Rasanter R48</p>
+                                </div>
                             </div>
+                            </a>
                         </div>
-                        </a>
-                    </div>
-                    <!--========== Rasanter R50 ==========--> 
-                    <div class="col-1 text-center" >
-                        <a href="rasanterR50.html" style="color: #58555E;">
-                        <div class="card" style="width: 80%; margin:auto;">
-                            <img src="../../photos/GomaAndroRasanterR50-1.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                            <p class="card-text" style="font-size: 3vh;">USD 60<span style="font-size: 1.8vh; color:green;"></span></p>
-                            <p class="card-text">Goma Andro Rasanter R50</p>
+                        <!--========== Rasanter R50 ==========--> 
+                        <div class="col-1 text-center" >
+                            <a href="rasanterR50.html" style="color: #58555E;">
+                            <div class="card" style="width: 80%; margin:auto;">
+                                <img src="../../photos/GomaAndroRasanterR50-1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                <p class="card-text" style="font-size: 3vh;">USD 60<span style="font-size: 1.8vh; color:green;"></span></p>
+                                <p class="card-text">Goma Andro Rasanter R50</p>
+                                </div>
                             </div>
+                            </a>
                         </div>
-                        </a>
-                    </div>
-                    <!--========== Rasanter R53 ==========--> 
-                    <div class="col-1 text-center" >
-                        <a href="rasanterR53.html" style="color: #58555E;">
-                        <div class="card" style="width: 80%; margin:auto;">
-                            <img src="../../photos/GomaAndroRasanterR53-1.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                            <p class="card-text" style="font-size: 3vh;">USD 70<span style="font-size: 1.8vh; color:green;"></span></p>
-                            <p class="card-text">Goma Andro Rasanter R53</p>
+                        <!--========== Rasanter R53 ==========--> 
+                        <div class="col-1 text-center" >
+                            <a href="rasanterR53.html" style="color: #58555E;">
+                            <div class="card" style="width: 80%; margin:auto;">
+                                <img src="../../photos/GomaAndroRasanterR53-1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                <p class="card-text" style="font-size: 3vh;">USD 70<span style="font-size: 1.8vh; color:green;"></span></p>
+                                <p class="card-text">Goma Andro Rasanter R53</p>
+                                </div>
                             </div>
+                            </a>
                         </div>
-                        </a>
-                    </div>
-                    <!--========== Rasanter V42 ==========--> 
-                    <div class="col-1 text-center" >
-                        <a href="rasanterV42.html" style="color: #58555E;">
-                        <div class="card" style="width: 80%; margin:auto;">
-                            <img src="../../photos/GomaAndroRasanterV42-1.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                            <p class="card-text" style="font-size: 3vh;">USD 60<span style="font-size: 1.8vh; color:green;"></span></p>
-                            <p class="card-text">Goma Andro Rasanter V42</p>
+                        <!--========== Rasanter V42 ==========--> 
+                        <div class="col-1 text-center" >
+                            <a href="rasanterV42.html" style="color: #58555E;">
+                            <div class="card" style="width: 80%; margin:auto;">
+                                <img src="../../photos/GomaAndroRasanterV42-1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                <p class="card-text" style="font-size: 3vh;">USD 60<span style="font-size: 1.8vh; color:green;"></span></p>
+                                <p class="card-text">Goma Andro Rasanter V42</p>
+                                </div>
                             </div>
+                            </a>
                         </div>
-                        </a>
-                    </div>
-                    <!--========== Rasanter V47 ==========--> 
-                    <div class="col-1 text-center" >
-                        <a href="rasanterV47.html" style="color: #58555E;">
-                        <div class="card" style="width: 80%; margin:auto;">
-                            <img src="../../photos/GomaAndroRasanterV47-1.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                            <p class="card-text" style="font-size: 3vh;">USD 60<span style="font-size: 1.8vh; color:green;"></span></p>
-                            <p class="card-text">Goma Andro Rasanter V47</p>
+                        <!--========== Rasanter V47 ==========--> 
+                        <div class="col-1 text-center" >
+                            <a href="rasanterV47.html" style="color: #58555E;">
+                            <div class="card" style="width: 80%; margin:auto;">
+                                <img src="../../photos/GomaAndroRasanterV47-1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                <p class="card-text" style="font-size: 3vh;">USD 60<span style="font-size: 1.8vh; color:green;"></span></p>
+                                <p class="card-text">Goma Andro Rasanter V47</p>
+                                </div>
                             </div>
+                            </a>
                         </div>
-                        </a>
+    
                     </div>
-
-                  </div>
+                </div>
+                  
 
               </div>
                   

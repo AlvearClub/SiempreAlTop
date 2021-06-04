@@ -46,6 +46,19 @@
               a{
                   text-decoration: none;
               }
+              .precioCotizacion{
+                align-items: left;
+                justify-content: space-between;
+              }
+              .precioCotizacion button{
+                  height: 40px;
+              }
+
+              @media(max-width: 991px){
+                .precioCotizacion h1{
+                    margin-top: 1vh;
+                }
+              }
         </style>
 
         <style>
@@ -623,8 +636,17 @@
                     
                             <div class="col-xl-6" style="margin-top: 2vh;">
 
-                                <!--<h4 class="descuento"> USD 100 </h4>-->
-                                <h1> USD 80 <span class="precio"></span></h1>
+                                <div class="precioCotizacion" style="display: flex;">
+                                    <!--<h4 class="descuento"> USD 100 </h4>-->
+                                    <h1> USD 80 <span class="precio"></span></h1>
+
+                                     <!--https://www.dolarhoy.com/      dolar blue para resto de marcas-->
+                                     <!--https://www.dolarhoy.com/cotizacion-dolar-banco-nacion      dolar oficial banco nacion para marca donic-->
+                                    
+                                    <a href="https://www.dolarhoy.com/" style="list-style: none;" target="_blank">
+                                        <button type="button" class="btn btn-primary">Ver Cotizacion Dolar</button>
+                                    </a>
+                                </div>
                                 
                                 <hr>
 
@@ -731,94 +753,96 @@
               <div class="container" style="margin-top: 4vh;">
                   
                     <h4 style="margin-bottom: 3vh;">Quienes vieron este producto tambien compraron</h4>
+                <div class="container">
+                    <div class="row slider justify-content-center">
 
-                  <div class="row slider justify-content-center">
-
-                    <div class="col-1 text-center" >
-                        <a href="dignics09C.html" style="color: #58555E;">
-                        <div class="card" style="width: 80%; margin:auto;">
-                            <img src="../../photos/GomaButterflyDIGNICS09C-1.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <p class="card-text" style="font-size: 3vh;">USD 100 <span style="font-size: 1.8vh; color:green;"></span></p>
-                              <p class="card-text">Goma Butterfly Dignics09C</p>
-                            </div>
-                          </div>
-                        </a>
-                    </div>
-
-                    <div class="col-1 text-center" >
-                        <a href="dignics64.html" style="color: #58555E;">
-                        <div class="card" style="width: 80%; margin:auto;">
-                            <img src="../../photos/GomaButterflyDIGNICS64-1.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <p class="card-text" style="font-size: 3vh;">USD 100<span style="font-size: 1.8vh; color:green;"></span></p>
-                              <p class="card-text">Goma Butterfly Dignics 64</p>
-                            </div>
-                          </div>
-                        </a>
-                    </div>
-
-                    <div class="col-1 text-center" >
-                        <a href="dignics80.html" style="color: #58555E;">
-                        <div class="card" style="width: 80%; margin:auto;">
-                            <img src="../../photos/GomaButterflyDIGNICS80-1.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <p class="card-text" style="font-size: 3vh;">USD 100 <span style="font-size: 1.8vh; color:green;"></span></p>
-                              <p class="card-text">Goma Butterfly Dignics 80</p>
-                            </div>
-                          </div>
-                        </a>
-                    </div>
-
-                    <div class="col-1 text-center" >
-                        <a href="tEnergy05.html" style="color: #58555E;">
-                        <div class="card" style="width: 80%; margin:auto;">
-                            <img src="../../photos/GomaButterflyTEnergy05-1.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <p class="card-text" style="font-size: 3vh;">USD 80 <span style="font-size: 1.8vh; color:green;"></span></p>
-                              <p class="card-text">Goma Butterfly TEnergy05</p>
-                            </div>
-                          </div>
-                        </a>
-                    </div>
-
-                    <div class="col-1 text-center" >
-                        <a href="tEnergy64.html" style="color: #58555E;">
-                        <div class="card" style="width: 80%; margin:auto;">
-                            <img src="../../photos/GomaButterflyTEnergy64-1.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <p class="card-text" style="font-size: 3vh;">USD 80 <span style="font-size: 1.8vh; color:green;"></span></p>
-                              <p class="card-text">Goma Butterfly TEnergy 64</p>
-                            </div>
-                          </div>
-                        </a>
-                    </div>
-
-                    <div class="col-1 text-center" >
-                        <a href="tEnergy25.html" style="color: #58555E;">
-                        <div class="card" style="width: 80%; margin:auto;">
-                            <img src="../../photos/GomaButterflyTEnergy25-1.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <p class="card-text" style="font-size: 3vh;">USD 80 <span style="font-size: 1.8vh; color:green;"></span></p>
-                              <p class="card-text">Goma Butterfly TEnergy 25</p>
-                            </div>
-                          </div>
-                        </a>
-                    </div>
-
-                    <div class="col-1 text-center" >
-                        <a href="tEnergy80.html" style="color: #58555E;">
-                        <div class="card" style="width: 80%; margin:auto;">
-                            <img src="../../photos/GomaButterflyTEnergy80-1.jpg" class="card-img-top" alt="...">
-                            <div class="card-body">
-                              <p class="card-text" style="font-size: 3vh;">USD 80 <span style="font-size: 1.8vh; color:green;"></span></p>
-                              <p class="card-text">Goma Butterfly TEnergy 80</p>
-                            </div>
-                          </div>
-                        </a>
-                    </div>
-
-                  </div>
+                        <div class="col-1 text-center" >
+                            <a href="dignics09C.html" style="color: #58555E;">
+                            <div class="card" style="width: 80%; margin:auto;">
+                                <img src="../../photos/GomaButterflyDIGNICS09C-1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <p class="card-text" style="font-size: 3vh;">USD 100 <span style="font-size: 1.8vh; color:green;"></span></p>
+                                  <p class="card-text">Goma Butterfly Dignics09C</p>
+                                </div>
+                              </div>
+                            </a>
+                        </div>
+    
+                        <div class="col-1 text-center" >
+                            <a href="dignics64.html" style="color: #58555E;">
+                            <div class="card" style="width: 80%; margin:auto;">
+                                <img src="../../photos/GomaButterflyDIGNICS64-1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <p class="card-text" style="font-size: 3vh;">USD 100<span style="font-size: 1.8vh; color:green;"></span></p>
+                                  <p class="card-text">Goma Butterfly Dignics 64</p>
+                                </div>
+                              </div>
+                            </a>
+                        </div>
+    
+                        <div class="col-1 text-center" >
+                            <a href="dignics80.html" style="color: #58555E;">
+                            <div class="card" style="width: 80%; margin:auto;">
+                                <img src="../../photos/GomaButterflyDIGNICS80-1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <p class="card-text" style="font-size: 3vh;">USD 100 <span style="font-size: 1.8vh; color:green;"></span></p>
+                                  <p class="card-text">Goma Butterfly Dignics 80</p>
+                                </div>
+                              </div>
+                            </a>
+                        </div>
+    
+                        <div class="col-1 text-center" >
+                            <a href="tEnergy05.html" style="color: #58555E;">
+                            <div class="card" style="width: 80%; margin:auto;">
+                                <img src="../../photos/GomaButterflyTEnergy05-1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <p class="card-text" style="font-size: 3vh;">USD 80 <span style="font-size: 1.8vh; color:green;"></span></p>
+                                  <p class="card-text">Goma Butterfly TEnergy05</p>
+                                </div>
+                              </div>
+                            </a>
+                        </div>
+    
+                        <div class="col-1 text-center" >
+                            <a href="tEnergy64.html" style="color: #58555E;">
+                            <div class="card" style="width: 80%; margin:auto;">
+                                <img src="../../photos/GomaButterflyTEnergy64-1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <p class="card-text" style="font-size: 3vh;">USD 80 <span style="font-size: 1.8vh; color:green;"></span></p>
+                                  <p class="card-text">Goma Butterfly TEnergy 64</p>
+                                </div>
+                              </div>
+                            </a>
+                        </div>
+    
+                        <div class="col-1 text-center" >
+                            <a href="tEnergy25.html" style="color: #58555E;">
+                            <div class="card" style="width: 80%; margin:auto;">
+                                <img src="../../photos/GomaButterflyTEnergy25-1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <p class="card-text" style="font-size: 3vh;">USD 80 <span style="font-size: 1.8vh; color:green;"></span></p>
+                                  <p class="card-text">Goma Butterfly TEnergy 25</p>
+                                </div>
+                              </div>
+                            </a>
+                        </div>
+    
+                        <div class="col-1 text-center" >
+                            <a href="tEnergy80.html" style="color: #58555E;">
+                            <div class="card" style="width: 80%; margin:auto;">
+                                <img src="../../photos/GomaButterflyTEnergy80-1.jpg" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <p class="card-text" style="font-size: 3vh;">USD 80 <span style="font-size: 1.8vh; color:green;"></span></p>
+                                  <p class="card-text">Goma Butterfly TEnergy 80</p>
+                                </div>
+                              </div>
+                            </a>
+                        </div>
+    
+                      </div>
+                </div>
+                  
 
               </div>
                   
